@@ -1,0 +1,101 @@
+{ "dentist":[
+   { "name":"Mr. hooda",
+     "fee":"Fee: Rs. 200/-",
+     "timings":"10am - 1pm\n3pm - 7pm",
+     "photoid":"assassin",
+     "location":"Rajouri",
+     "num":"9999094981",
+     "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+   },
+
+    {
+        "name":"Mr. Sharma",
+        "fee":"Fee: Rs. 500/-",
+        "timings":"9am - 2pm\n3pm - 5pm",
+        "photoid":"assassin2",
+        "location":"Bhera Enclave",
+        "num":"9650066026",
+        "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+
+
+    },
+
+    {
+        "name":"Mr. Dhingra",
+        "fee":"Fee: Rs. 200/-",
+        "timings":"11am - 1pm\n4pm - 8pm",
+        "photoid":"assassin3",
+        "location":"Meera bagh",
+        "num":"9810757666",
+             "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+   },
+
+    {
+            "name":"Mr. Saini",
+            "fee":"Fee: Rs. 200/-",
+            "timings":"10am - 2pm\n3pm - 6pm",
+            "photoid":"assassin3",
+            "location":"Mundka",
+            "num":"8802553203",
+                 "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+
+    }
+  ],
+
+
+
+  "homeopath":[
+    {
+        "name":"Dhruv Sharma",
+        "fee":"Fee: Rs. 300/-",
+        "timings":"Timings: 12pm - 8pm",
+        "photoid":"assassin",
+        "location":"Paschim Vihar",
+        "num":"9650066026",
+             "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+
+
+    },
+    {
+        "name":"Vipul Hooda",
+        "fee":"Fee: Rs. 400/-",
+        "timings":"Timings: 9am - 3pm",
+        "photoid":"assassin2",
+        "location":"Punjabi bagh",
+        "num":"9999094981",
+             "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+
+
+    },
+    {
+        "name":"Archit Dhingra",
+        "fee":"Fee: Rs. 100/-",
+        "timings":"Timings: 11am - 2pm",
+        "photoid":"assassin3",
+        "location":"Rohini",
+        "num":"9810757666",
+             "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+
+
+    },
+
+    {
+                "name":"Vijayant Saini",
+                "fee":"Fee: Rs. 500/-",
+                "timings":"Timings: 11am - 5pm",
+                "photoid":"assassin3",
+                "location":"Mundka",
+                "num":"8802553203",
+                     "about":"This is test String.\n This is test String.\n This is test String.\n This is test String.\n This is test String. "
+
+        }
+
+  ]
+}

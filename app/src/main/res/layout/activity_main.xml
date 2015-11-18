@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   android:layout_gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/frag1"
+            android:layout_gravity="center"
+            android:text="Choose Specialists :"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="61px"
+            android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:useDefaultMargins="true"
+            android:alignmentMode="alignBounds"
+            android:columnOrderPreserved="false"
+
+            android:paddingTop="150px"
+            android:rowCount="2"
+            android:columnCount="3"
+
+            >
+
+            <Button
+                android:id="@+id/doc1"
+                android:layout_width="wrap_content"
+
+                android:text="dentist"
+                android:textColor="#aba5a5"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dentist"
+                android:onClick="buttons"/>
+
+            <Button
+                android:id="@+id/doc2"
+                android:layout_width="wrap_content"
+
+                android:textColor="#aba5a5"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/homeopathy"
+
+                android:text="Homeopathy"
+                android:onClick="buttons"/>
+
+            <Button
+                android:id="@+id/doc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ayurved"
+                android:textColor="#aba5a5"
+
+                android:text="Ayurveda"
+                android:onClick="buttons"/>
+
+            <Space
+                android:layout_column="2"
+                android:layout_row="1"
+                android:layout_height="16dp"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/doc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/neurology"
+                android:textColor="#aba5a5"
+                android:text="Neurologist"
+                android:onClick="buttons"/>
+
+            <Button
+                android:id="@+id/doc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/cardiology"
+                android:textColor="#aba5a5"
+
+                android:text="Cardiologist"
+                android:onClick="buttons"/>
+
+            <Button
+                android:id="@+id/doc6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/psychology"
+                android:textColor="#aba5a5"
+
+                android:text="Psychiatrist"
+                android:onClick="buttons"/>
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+

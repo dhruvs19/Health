@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapps.dhruv.health" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchResultsActivity" />
+        </activity>
+
+        <activity
+            android:name=".speclist"
+            android:label="@string/title_activity_speclist"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapps.dhruv.health.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".specinfo"
+            android:label="@string/title_activity_specinfo"
+            android:parentActivityName=".speclist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapps.dhruv.health.speclist" />
+        </activity>
+
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+
+        <activity
+            android:name=".SearchResultsActivity"
+            android:label="@string/title_activity_search_results"
+            android:launchMode="singleTop" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name=".book"
+            android:label="@string/title_activity_book"
+            android:parentActivityName=".speclist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapps.dhruv.health.speclist" />
+        </activity>
+
+        <activity
+            android:name=".register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".book" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myapps.dhruv.health.book" />
+        </activity>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultsActivity" />
+
+
+
+    </application>
+
+</manifest>

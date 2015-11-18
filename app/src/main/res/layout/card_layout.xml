@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/cv"
+        card_view:cardElevation="35dp"
+        android:foreground="?android:attr/selectableItemBackground">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp" >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doc_photo"
+                android:src="@drawable/assassin"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doc_name"
+                android:text="dhruv Sharma"
+                android:layout_toRightOf="@+id/doc_photo"
+                android:layout_alignParentTop="true"
+                android:textSize="23sp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doc_loc"
+                android:text="dhruv Sharma"
+                android:layout_toRightOf="@+id/doc_photo"
+                android:layout_below="@+id/doc_name"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="19dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/doc_fee"
+                android:text="dhruv Sharma"
+                android:layout_toRightOf="@+id/doc_photo"
+                android:layout_below="@+id/doc_loc"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+
+                android:layout_height="30dp"
+                android:background="#e15c11"
+                android:textColor="#ffffff"
+                android:id="@+id/book"
+                android:text="BOOK"
+                android:layout_toRightOf="@+id/doc_fee"
+                android:layout_below="@+id/doc_name"
+                android:onClick="call"/>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
